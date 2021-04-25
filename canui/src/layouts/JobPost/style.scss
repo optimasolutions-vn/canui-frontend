@@ -1,0 +1,113 @@
+.job-post-page {
+  .image-review {
+    display: flex;
+    justify-content: center;
+    .wrapper-job-image{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      overflow: hidden;
+      position: relative;
+    }
+    img {
+      position: absolute;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 100px;
+      max-height: 100px;
+      width: auto;
+      height: auto;
+    }
+  }
+  .select-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title {
+      width: 40%;
+      padding-right: 20px;
+      //display: flex;
+      //justify-content: flex-end;
+      &.full {
+        width: 100%;
+      }
+    }
+    select {
+      width: 50%;
+    }
+    input {
+      width: 60%;
+    }
+    .services {
+      width: 60% !important;
+    }
+    .area {
+      width: 60% !important;
+    }
+    .national {
+      width: 60% !important;
+    }
+
+  }
+  .item {
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 15px;
+    &.yellow {
+      background-color: rgb(239, 168, 15);
+      color: white;
+    }
+    &.gray {
+      background-color: darkgray;
+      color: white;
+    }
+    &.note {
+      padding: 30px;
+      text-align: left;
+      background-color: #f8f8f8;
+      color: #777;
+    }
+    &.requesting {
+      background-color: grey;
+      color: white;
+    }
+    &.count {
+      &:hover {
+        cursor: pointer;
+      }
+     background-color: white;
+      color: rgb(42, 65, 230);
+      border: solid 2px rgb(42, 65, 230);
+    }
+  }
+  .line {
+    border: solid 1px #888888;
+  }
+  .button-container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .btn-message {
+    background-color: rgb(184, 27, 127);
+  }
+  .btn-now {
+    background-color: #FF5548;
+  }
+  .hide {
+    display: none;
+  }
+  .freelancer-overview {
+    width: 100%;
+  }
+  .freelancer-details {
+    width: 100% !important;
+    .freelancer-details-list {
+      ul {
+        width: 100%;
+      }
+    }
+  }
+}

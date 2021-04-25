@@ -1,0 +1,117 @@
+$height: 70px;
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
+.extendClass{
+	display: block;
+	width: 100%;
+	height: auto;
+	list-style: none;
+	margin: auto;
+	padding: 0;
+}
+#services-list-add-new{
+	height: $height;
+	position: sticky;
+	top: 0;
+	background: #fff;
+	.btn-create-new-service{
+		text-align:center;
+		height: $height;
+		line-height: $height;
+		cursor: pointer;
+		color: #000;
+	}
+}
+.titleNamePage{
+	line-height: 70px;
+}
+
+#services-list{
+	.services-list,
+	.services-list-header{
+		@extend .extendClass;
+		li{
+			display: block;
+			padding: 5px 10px; 
+			border-bottom: 1px solid #ccc;
+			> div{
+				display: inline-block;
+				vertical-align: middle;
+			}
+			.ids{
+				width: 5%;
+			}
+			.name{
+				width: 30%;
+				overflow: auto;
+			}
+			.descriptions{
+				width: 40%;
+				overflow: auto;
+			}
+			.icon{
+				width: 5%;
+				text-align: center;
+				overflow: auto;
+			}
+			.total-jobs{
+				width: 10%;
+				text-align: center;
+				overflow: auto;
+			}
+			.actions{
+				width: 10%;
+				text-align: center;
+				.btn-update,
+				.btn-delete{
+					display: inline-block;
+					vertical-align: middle;
+					margin: auto;
+					padding: 5px 10px;
+					color: #dc4534;
+					&:hover{
+						background-color: #dc4534;
+						cursor: pointer;
+						color:#fff;
+					}
+				}
+			}
+			.icon{
+				img{
+					max-width: 30px;
+				}
+				
+			}
+		}
+	}
+	.services-list-header{
+		background-color: #000;
+		color: #fff;
+		position: sticky;
+		top: $height;
+		li{
+			>div{
+				text-transform: capitalize;
+			}
+		}
+	}
+	.services-list{
+		position: absolute;
+		top: 115px;
+		bottom: 10px;
+		left: 0;
+		right: 0;
+		overflow: auto;
+	}
+}

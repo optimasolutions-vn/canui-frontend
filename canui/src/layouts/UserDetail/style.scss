@@ -1,0 +1,90 @@
+.user-detail-page {
+  .policy {
+    white-space: pre-wrap;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    a {
+      width: calc(100% - 80px);
+    }
+    .btn-icon {
+      cursor: pointer;
+      font-size: 55px;
+      &.active {
+        color: #FF5548;
+      }
+    }
+  }
+  .fields-ul {
+    li.full-width {
+      padding: 0;
+    }
+  }
+  .image-review {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 100%;
+    }
+  }
+  .item {
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 15px;
+    &.yellow {
+      background-color: rgb(239, 168, 15);
+      color: white;
+    }
+    &.gray {
+      background-color: darkgray;
+      color: white;
+    }
+    &.note {
+      padding: 30px;
+      text-align: left;
+      background-color: #f8f8f8;
+      color: #777;
+    }
+    &.requesting {
+      background-color: grey;
+      color: white;
+    }
+    &.count {
+      &:hover {
+        cursor: pointer;
+      }
+     background-color: white;
+      color: rgb(42, 65, 230);
+      border: solid 2px rgb(42, 65, 230);
+    }
+  }
+  .line {
+    border: solid 1px #888888;
+  }
+  .button-container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .btn-message {
+    background-color: rgb(184, 27, 127);
+  }
+  .btn-now {
+    background-color: #dc3139;
+  }
+  .hide {
+    display: none;
+  }
+  .freelancer-overview {
+    width: 100%;
+  }
+  .freelancer-details {
+    width: 100% !important;
+    .freelancer-details-list {
+      ul {
+        width: 100%;
+      }
+    }
+  }
+}

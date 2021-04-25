@@ -1,0 +1,42 @@
+
+.dashboard-content-container {
+  @media (max-width: 768px) {
+    margin-bottom: 50px;
+  }
+  .freelancers-container {
+    min-height: 200px;
+    .empty-div {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .freelancers-list-layout {
+    box-shadow: none;
+    .freelancer-details{
+      flex: 0 0 50%;
+      text-align: center;
+      @media (max-width: 768px) {
+        width: 100%;
+        ul {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .freelancer {
+    box-shadow: none;
+    margin-bottom: 0;
+  }
+  .freelancer-overview{
+    padding: 45px 40px;
+    .freelancer-avatar{
+      width: 90px;
+    }
+    @media (max-width: 768px) {
+      padding: 15px;
+      width: 100%;
+    }
+  }
+}

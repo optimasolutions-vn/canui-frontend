@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cms/static/css/main.861a8338.chunk.css",
+    "main.js": "/cms/static/js/main.5af6016e.chunk.js",
+    "main.js.map": "/cms/static/js/main.5af6016e.chunk.js.map",
+    "runtime-main.js": "/cms/static/js/runtime-main.98924145.js",
+    "runtime-main.js.map": "/cms/static/js/runtime-main.98924145.js.map",
+    "static/css/2.a2001b70.chunk.css": "/cms/static/css/2.a2001b70.chunk.css",
+    "static/js/2.6a760777.chunk.js": "/cms/static/js/2.6a760777.chunk.js",
+    "static/js/2.6a760777.chunk.js.map": "/cms/static/js/2.6a760777.chunk.js.map",
+    "index.html": "/cms/index.html",
+    "static/css/2.a2001b70.chunk.css.map": "/cms/static/css/2.a2001b70.chunk.css.map",
+    "static/css/main.861a8338.chunk.css.map": "/cms/static/css/main.861a8338.chunk.css.map",
+    "static/js/2.6a760777.chunk.js.LICENSE.txt": "/cms/static/js/2.6a760777.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/cms/static/media/arrow_right.0897f985.svg",
+    "static/media/all.min.css": "/cms/static/media/fa-solid-900.efbd5d20.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98924145.js",
+    "static/css/2.a2001b70.chunk.css",
+    "static/js/2.6a760777.chunk.js",
+    "static/css/main.861a8338.chunk.css",
+    "static/js/main.5af6016e.chunk.js"
+  ]
+}

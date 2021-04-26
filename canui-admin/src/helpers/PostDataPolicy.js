@@ -1,0 +1,200 @@
+const categoriesHome = [
+	{
+		id: 1,
+		title: 'Tư vấn kinh doanh',
+		description: 'Software Engineer, Web / Mobile Developer & More',
+		short_intro: 'Software Engineer, Web / Mobile Developer & More',
+		slug: 'web-software-dev',
+		quantity: 612,
+		icon_url: '',
+		icon_awesome_class: 'icon-line-awesome-file-code-o',
+		image_background: '',
+	},
+	{
+		id: 2,
+		title: 'Cấp phát giấy tờ',
+		description: 'Data Specialist / Scientist, Data Analyst & More',
+		short_intro: 'Data Specialist / Scientist, Data Analyst & More',
+		slug: 'data-science-analitycs',
+		quantity: 113,
+		icon_url: '',
+		icon_awesome_class: 'icon-line-awesome-cloud-upload',
+		image_background: '',
+	},
+	{
+		id: 3,
+		title: 'Khảo sát thị trường',
+		description: 'Auditor, Accountant, Fnancial Analyst & More',
+		short_intro: 'Auditor, Accountant, Fnancial Analyst & More',
+		slug: 'accounting-consulting',
+		quantity: 186,
+		icon_url: '',
+		icon_awesome_class: 'icon-line-awesome-suitcase',
+		image_background: '',
+	},
+	{
+		id: 4,
+		title: 'Dịch vụ hợp đồng',
+		description: 'Copywriter, Creative Writer, Translator & More',
+		short_intro: 'Copywriter, Creative Writer, Translator & More',
+		slug: 'writing-translations',
+		quantity: 298,
+		icon_url: '',
+		icon_awesome_class: 'icon-line-awesome-pencil',
+		image_background: '',
+	},
+	{
+		id: 5,
+		title: 'Dịch vụ kế toán',
+		description: 'Brand Manager, Marketing Coordinator & More',
+		short_intro: 'Brand Manager, Marketing Coordinator & More',
+		slug: 'sale-marketing',
+		quantity: 549,
+		icon_url: '',
+		icon_awesome_class: 'icon-line-awesome-pie-chart',
+		image_background: '',
+	},
+	{
+		id: 6,
+		title: 'Dịch vụ tuyển dụng',
+		description: 'Creative Director, Web Designer & More',
+		short_intro: 'Creative Director, Web Designer & More',
+		slug: 'graphics-design',
+		quantity: 873,
+		icon_url: '',
+		icon_awesome_class: 'icon-line-awesome-image',
+		image_background: '',
+	},
+	{
+		id: 7,
+		title: 'Dịch vụ thư kí',
+		description: 'Darketing Analyst, Social Profile Admin & More',
+		short_intro: 'Darketing Analyst, Social Profile Admin & More',
+		slug: 'digital-marketing',
+		quantity: 125,
+		icon_url: '',
+		icon_awesome_class: 'icon-line-awesome-bullhorn',
+		image_background: '',
+	},
+	{
+		id: 8,
+		title: 'Dịch vụ Pickup',
+		description: 'Advisor, Coach, Education Coordinator & More',
+		short_intro: 'Advisor, Coach, Education Coordinator & More',
+		slug: 'education-training',
+		quantity: 445,
+		icon_url: '',
+		icon_awesome_class: 'icon-line-awesome-graduation-cap',
+		image_background: '',
+	},
+	{
+		id: 9,
+		title: 'Dịch vụ làm thay',
+		description: 'Software Engineer, Web / Mobile Developer & More',
+		short_intro: 'Software Engineer, Web / Mobile Developer & More',
+		slug: 'web-software-dev-1',
+		quantity: 612,
+		icon_url: '',
+		icon_awesome_class: 'icon-line-awesome-file-code-o',
+		image_background: '',
+	},
+	{
+		id: 10,
+		title: 'Dịch vụ điện thoại',
+		description: 'Data Specialist / Scientist, Data Analyst & More',
+		short_intro: 'Data Specialist / Scientist, Data Analyst & More',
+		slug: 'data-science-analitycs-1',
+		quantity: 113,
+		icon_url: '',
+		icon_awesome_class: 'icon-line-awesome-cloud-upload',
+		image_background: '',
+	},
+	{
+		id: 11,
+		title: 'Bảo hộ bản thân',
+		description: 'Auditor, Accountant, Fnancial Analyst & More',
+		short_intro: 'Auditor, Accountant, Fnancial Analyst & More',
+		slug: 'accounting-consulting-1',
+		quantity: 186,
+		icon_url: '',
+		icon_awesome_class: 'icon-line-awesome-suitcase',
+		image_background: '',
+	},
+	{
+		id: 12,
+		title: 'Dịch vụ mua sắm',
+		description: 'Copywriter, Creative Writer, Translator & More',
+		short_intro: 'Copywriter, Creative Writer, Translator & More',
+		slug: 'writing-translations-1',
+		quantity: 298,
+		icon_url: '',
+		icon_awesome_class: 'icon-line-awesome-pencil',
+		image_background: '',
+	},
+	{
+		id: 13,
+		title: 'Dịch vụ theo nhu cầu',
+		description: 'Brand Manager, Marketing Coordinator & More',
+		short_intro: 'Brand Manager, Marketing Coordinator & More',
+		slug: 'sale-marketing-1',
+		quantity: 549,
+		icon_url: '',
+		icon_awesome_class: 'icon-line-awesome-pie-chart',
+		image_background: '',
+	},
+	{
+		id: 14,
+		title: 'Dịch vụ đồng hành',
+		description: 'Creative Director, Web Designer & More',
+		short_intro: 'Creative Director, Web Designer & More',
+		slug: 'graphics-design-1',
+		quantity: 873,
+		icon_url: '',
+		icon_awesome_class: 'icon-line-awesome-image',
+		image_background: '',
+	},
+	{
+		id: 15,
+		title: 'Giao hàng',
+		description: 'Darketing Analyst, Social Profile Admin & More',
+		short_intro: 'Darketing Analyst, Social Profile Admin & More',
+		slug: 'digital-marketing-1',
+		quantity: 125,
+		icon_url: '',
+		icon_awesome_class: 'icon-line-awesome-bullhorn',
+		image_background: '',
+	},
+	{
+		id: 16,
+		title: 'Tất các dịch vụ',
+		description: 'Advisor, Coach, Education Coordinator & More',
+		short_intro: 'Advisor, Coach, Education Coordinator & More',
+		slug: 'education-training-1',
+		quantity: 445,
+		icon_url: '',
+		icon_awesome_class: 'icon-line-awesome-graduation-cap',
+		image_background: '',
+	},
+];
+function dmo(){
+	if(window.localStorage){
+		let _data = window.localStorage.getItem('canui-services-categories');
+		if(_data){
+			try{
+				_data = JSON.parse(_data);
+			}catch(err){
+				console.log(err);
+				_data = false;
+			}
+			return _data;
+		}else{
+			window.localStorage.setItem('canui-services-categories', JSON.stringify(categoriesHome));
+			return categoriesHome;
+		}	
+	}
+	return false;
+}
+
+export default {
+	categories: dmo(),
+};

@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "tech.canui.twa",
+               "sha256_cert_fingerprints": ["D1:88:AB:F6:A2:E0:22:CF:04:0C:8E:36:A1:4A:59:D8:25:B1:4E:8D:AF:C9:FF:1C:F5:1E:6C:2E:AD:E7:4D:E6"] }
+}]

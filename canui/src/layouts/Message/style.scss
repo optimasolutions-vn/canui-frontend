@@ -1,0 +1,95 @@
+.message-page {
+  .has-message {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .message-content-inner{
+    height: 400px;
+    .loading {
+      position: absolute;
+      height: 350px;
+      z-index: 5555555;
+      width: 60vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: -30px;
+      opacity: .5;
+      @media (max-width: 768px) {
+        width: 85vw;
+      }
+    }
+  }
+  .messages-inbox {
+    ul {
+      max-height: 400px !important;
+    }
+  }
+  .messages-headline {
+    //display: none;
+    //@media (max-width: 768px) {
+    //  display: inline-flex;
+    //  justify-content: space-between;
+    //  align-items: center;
+    //  .message-action i {
+    //    font-size: 20px;
+    //  }
+    //  .message-headline-content {
+    //    text-align: center;
+    //  }
+    //}
+  }
+  .message-body {
+    i {
+      color: white;
+      cursor: pointer;
+      font-size: 25px;
+    }
+    &.black {
+     i {
+       color: black;
+     }
+    }
+    button.black {
+      background: #f0f0f0;
+      color: #666;
+    }
+  }
+  button.black {
+    background: #f0f0f0;
+    color: #666;
+    margin-right: 10px;
+  }
+  .system-message {
+    background: #f0f0f0;
+    color: #666;
+    padding: 20px;
+    &.confirmed {
+      background-color: #EBF6E0;
+      color: #5f9025
+    }
+  }
+  .action-chat-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    &.flex-end {
+      justify-content: flex-end;
+    }
+    i {
+      cursor: pointer;
+      font-size: 25px;
+    }
+    label {
+      margin-bottom: 0;
+    }
+    .input {
+      margin-bottom: 0;
+    }
+  }
+  .message-reply {
+    margin-top: 0px;
+  }
+}

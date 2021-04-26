@@ -1,0 +1,38 @@
+.Announcenment-cms-content{
+	.description{
+	    white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	}
+	#services-list.cms-page-content{
+		min-height: calc(100vh - 120px);
+	}
+	.pagination-list{
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+		display: block;
+		nav.MuiPagination-root{
+			display: inline-block;
+		}
+	}
+	#services-list .services-list li .name,
+	#services-list .services-list-header li .name{
+		width: calc(95% - 300px);
+	}
+	#services-list .services-list-header li .descriptions,
+	#services-list .services-list li .descriptions{
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	#services-list .services-list-header li .createdAt,
+	#services-list .services-list li .createdAt{
+		width: 200px;
+	}
+	.nodata{
+		text-align: center;
+		padding: 40px;
+	}
+}

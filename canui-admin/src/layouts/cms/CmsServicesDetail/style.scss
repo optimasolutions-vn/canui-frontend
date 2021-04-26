@@ -1,0 +1,24 @@
+.service-detail-admin{
+	padding: 30px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+	.title-page-header{
+		margin: 15px auto;
+	}
+	.icon-detail{
+		>div{
+			display: inline-block;
+			vertical-align: middle;
+			margin: auto;
+			width: auto;
+			margin-right: 10px;
+		}
+		img{
+			max-width: 35px;
+		}
+	}
+}

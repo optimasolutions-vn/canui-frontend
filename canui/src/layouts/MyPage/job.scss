@@ -1,0 +1,18 @@
+.rating-container {
+  margin-top: 10px;
+  p {
+    margin-bottom: 0;
+  }
+  .feedback-yes-no {
+    margin-bottom: 0;
+  }
+  .leave-rating input[type="radio"] {
+    line-height: normal;
+    margin-bottom: 0;
+  }
+  .review-content {
+    padding: 10px 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+}
